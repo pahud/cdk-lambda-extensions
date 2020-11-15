@@ -4,7 +4,7 @@
   "description": "AWS CDK construct library that allows you to add any AWS Lambda extensions to the Lambda functions",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pahudnet/cdk-lambda-extensions.git"
+    "url": "https://github.com/pahud/cdk-lambda-extensions.git"
   },
   "bin": {},
   "scripts": {
