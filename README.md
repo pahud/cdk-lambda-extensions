@@ -4,7 +4,7 @@
 
 # cdk-lambda-extensions
 
-AWS CDK construct library that allows you to add any [AWS Lambda Extensions](https://docs.aws.amazon.com/lambda/latest/dg/using-extensions.html) to existing Lambda functions.
+AWS CDK construct library that allows you to add any [AWS Lambda Extensions](https://docs.aws.amazon.com/lambda/latest/dg/using-extensions.html) to the Lambda functions.
 
 # Sample
 

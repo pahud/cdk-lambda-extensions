@@ -7,6 +7,7 @@ const project = new AwsCdkConstructLibrary({
   authorName: "Pahud",
   cdkVersion: "1.73.0",
   name: "cdk-lambda-extensions",
+  description: "AWS CDK construct library that allows you to add any AWS Lambda extensions to the Lambda functions",
   repository: "https://github.com/pahudnet/cdk-lambda-extensions.git",
   cdkDependencies: [
     '@aws-cdk/core',
