@@ -60,3 +60,4 @@ aws-lambda-extensions
 !/tsconfig.jest.json
 !/.eslintrc.json
 !/API.md
+!/.github/workflows/projenyarnupgrade.yml
