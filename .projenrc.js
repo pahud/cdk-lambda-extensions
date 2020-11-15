@@ -16,6 +16,7 @@ const project = new AwsCdkConstructLibrary({
     module: 'cdk_lambda_extensions',
   },
   dependabot: false,
+  defaultReleaseBranch: 'main',
 });
 
 const common_exclude = ['cdk.out', 'cdk.context.json', 'images', 'yarn-error.log', 'aws-lambda-extensions'];
