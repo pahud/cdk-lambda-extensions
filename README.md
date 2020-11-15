@@ -1,3 +1,7 @@
+[![NPM version](https://badge.fury.io/js/cdk-lambda-extensions.svg)](https://badge.fury.io/js/cdk-lambda-extensions)
+[![PyPI version](https://badge.fury.io/py/cdk-lambda-extensions.svg)](https://badge.fury.io/py/cdk-spot-one)
+![Release](https://github.com/pahud/cdk-lambda-extensions/workflows/Release/badge.svg)
+
 # cdk-lambda-extensions
 
 AWS CDK construct library that allows you to add any [AWS Lambda Extensions](https://docs.aws.amazon.com/lambda/latest/dg/using-extensions.html) to existing Lambda functions.
