@@ -1,5 +1,5 @@
 [![NPM version](https://badge.fury.io/js/cdk-lambda-extensions.svg)](https://badge.fury.io/js/cdk-lambda-extensions)
-[![PyPI version](https://badge.fury.io/py/cdk-lambda-extensions.svg)](https://badge.fury.io/py/cdk-spot-one)
+[![PyPI version](https://badge.fury.io/py/cdk-lambda-extensions.svg)](https://badge.fury.io/py/cdk-lambda-extensions)
 ![Release](https://github.com/pahud/cdk-lambda-extensions/workflows/Release/badge.svg)
 
 # cdk-lambda-extensions
