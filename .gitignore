@@ -35,6 +35,9 @@ jspm_packages/
 .yarn-integrity
 # parcel-bundler cache (https://parceljs.org/)
 .cache
+# jest-junit artifacts
+/test-reports/
+junit.xml
 /coverage
 /lib
 /dist
@@ -45,6 +48,7 @@ cdk.context.json
 images
 yarn-error.log
 aws-lambda-extensions
+!/.projen/tasks.json
 !/package.json
 !/.npmignore
 !/LICENSE
@@ -56,6 +60,7 @@ aws-lambda-extensions
 !/.github/workflows/release.yml
 !/.mergify.yml
 !/.github/pull_request_template.md
+!/.github/workflows/rebuild-bot.yml
 !/src
 !/tsconfig.jest.json
 !/.eslintrc.json

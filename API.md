@@ -39,6 +39,7 @@ new Function(scope: Construct, id: string, props: FunctionProps)
   * **deadLetterQueueEnabled** (<code>boolean</code>)  Enabled DLQ. __*Default*__: false unless `deadLetterQueue` is set, which implies DLQ is enabled.
   * **description** (<code>string</code>)  A description of the function. __*Default*__: No description.
   * **environment** (<code>Map<string, string></code>)  Key-value pairs that Lambda caches and makes available for your Lambda functions. __*Default*__: No environment variables.
+  * **environmentEncryption** (<code>[IKey](#aws-cdk-aws-kms-ikey)</code>)  The AWS KMS key that's used to encrypt your function's environment variables. __*Default*__: AWS Lambda creates and uses an AWS managed customer master key (CMK).
   * **events** (<code>Array<[IEventSource](#aws-cdk-aws-lambda-ieventsource)></code>)  Event sources for this function. __*Default*__: No event sources.
   * **filesystem** (<code>[FileSystem](#aws-cdk-aws-lambda-filesystem)</code>)  The filesystem configuration for the lambda function. __*Default*__: will not mount any filesystem
   * **functionName** (<code>string</code>)  A name for the function. __*Default*__: AWS CloudFormation generates a unique physical ID and uses that ID for the function's name. For more information, see Name Type.
