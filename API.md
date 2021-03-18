@@ -34,6 +34,7 @@ new Function(scope: Construct, id: string, props: FunctionProps)
   * **retryAttempts** (<code>number</code>)  The maximum number of times to retry when the function returns an error. __*Default*__: 2
   * **allowAllOutbound** (<code>boolean</code>)  Whether to allow the Lambda to send all network traffic. __*Default*__: true
   * **allowPublicSubnet** (<code>boolean</code>)  Lambda Functions in a public subnet can NOT access the internet. __*Default*__: false
+  * **codeSigningConfig** (<code>[ICodeSigningConfig](#aws-cdk-aws-lambda-icodesigningconfig)</code>)  Code signing config associated with this function. __*Default*__: Not Sign the Code
   * **currentVersionOptions** (<code>[VersionOptions](#aws-cdk-aws-lambda-versionoptions)</code>)  Options for the `lambda.Version` resource automatically created by the `fn.currentVersion` method. __*Default*__: default options as described in `VersionOptions`
   * **deadLetterQueue** (<code>[IQueue](#aws-cdk-aws-sqs-iqueue)</code>)  The SQS queue to use if DLQ is enabled. __*Default*__: SQS queue with 14 day retention period if `deadLetterQueueEnabled` is `true`
   * **deadLetterQueueEnabled** (<code>boolean</code>)  Enabled DLQ. __*Default*__: false unless `deadLetterQueue` is set, which implies DLQ is enabled.
