@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.71](https://github.com/pahud/cdk-lambda-extensions/compare/v0.1.70...v0.1.71) (2021-03-24)
+
 ### [0.1.70](https://github.com/pahud/cdk-lambda-extensions/compare/v0.1.69...v0.1.70) (2021-03-22)
 
 ### [0.1.69](https://github.com/pahud/cdk-lambda-extensions/compare/v0.1.68...v0.1.69) (2021-03-21)
