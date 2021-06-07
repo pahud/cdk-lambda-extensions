@@ -21,6 +21,9 @@ const project = new AwsCdkConstructLibrary({
       labels: ['auto-approve'],
     },
   }),
+  autoApproveOptions: {
+    secret: 'PROJEN_GITHUB_TOKEN',
+  },
   defaultReleaseBranch: 'main',
 });
 
