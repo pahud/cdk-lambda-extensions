@@ -16,7 +16,6 @@ const project = new AwsCdkConstructLibrary({
     distName: 'cdk-lambda-extensions',
     module: 'cdk_lambda_extensions',
   },
-  // dependabot: false,
   depsUpgrade: DependenciesUpgradeMechanism.githubWorkflow({
     workflowOptions: {
       labels: ['auto-approve'],
