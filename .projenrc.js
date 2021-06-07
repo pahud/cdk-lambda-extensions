@@ -1,4 +1,4 @@
-const { AwsCdkConstructLibrary } = require('projen');
+const { AwsCdkConstructLibrary, DependenciesUpgradeMechanism } = require('projen');
 
 const project = new AwsCdkConstructLibrary({
   authorAddress: 'pahudnet@gmail.com',
@@ -16,9 +16,14 @@ const project = new AwsCdkConstructLibrary({
     distName: 'cdk-lambda-extensions',
     module: 'cdk_lambda_extensions',
   },
-  dependabot: false,
+  depsUpgrade: DependenciesUpgradeMechanism.githubWorkflow({
+    workflowOptions: {
+      labels: ['auto-approve'],
+    },
+  }),
   defaultReleaseBranch: 'main',
 });
+
 
 const common_exclude = ['cdk.out', 'cdk.context.json', 'images', 'yarn-error.log', 'aws-lambda-extensions'];
 project.npmignore.exclude(...common_exclude);
